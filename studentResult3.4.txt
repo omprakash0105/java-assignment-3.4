@@ -1,0 +1,81 @@
+package Test1;
+
+class newstu
+{
+int std1rollno,std2rollno,std3rollno;
+String std1name,std2name,std3name;
+int std1m1,std1m2,std1m3,std1m4,std1m5,std2m1,std2m2,std2m3,std2m4,std2m5,std3m1,std3m2,std3m3,std3m4,std3m5;
+float per1=0,total1=0,per2=0,total2=0,per3=0,total3=0;
+newstu()
+{
+std1rollno=101;
+std1name="riya";
+std1m1=75;
+std1m2=87;
+std1m3=68;
+std1m4=82;
+std1m5=70;
+total1=std1m1+std1m2+std1m3+std1m4+std1m5;
+per1=total1/5;
+
+
+std2rollno=102;
+std2name="neha";
+std2m1=82;
+std2m2=70;
+std2m3=78;
+std2m4=89;
+std2m5=73;
+total2=std2m1+std2m2+std2m3+std2m4+std2m5;
+per2=total2/5;
+
+std3rollno=103;
+std3name="rajat";
+std3m1=54;
+std3m2=60;
+std3m3=52;
+std3m4=50;
+std3m5=60;
+total3=std3m1+std3m2+std3m3+std3m4+std3m5;
+per3=total3/5;
+}
+void display()
+{
+System.out.println("Rollno is="+std1rollno);
+System.out.println("student name is="+std1name);
+System.out.println("subject1="+std1m1);
+System.out.println("subject2="+std1m2);
+System.out.println("subject3="+std1m3);
+System.out.println("subject4="+std1m4);
+System.out.println("subject5="+std1m5);
+System.out.println("student  total is="+total1);
+System.out.println("student percentage is="+per1);
+
+System.out.println("Rollno is="+std2rollno);
+System.out.println("student name is="+std2name);
+System.out.println("subject1="+std2m1);
+System.out.println("subject2="+std2m2);
+System.out.println("subject3="+std2m3);
+System.out.println("subject4="+std2m4);
+System.out.println("subject5="+std2m5);
+System.out.println("student  total is="+total2);
+System.out.println("student percentage is="+per2);
+
+System.out.println("Rollno is="+std3rollno);
+System.out.println("student name is="+std3name);
+System.out.println("subject1="+std3m1);
+System.out.println("subject2="+std3m2);
+System.out.println("subject3="+std3m3);
+System.out.println("subject4="+std3m4);
+System.out.println("subject5="+std3m5);
+System.out.println("student total is="+total3);
+System.out.println("student percentage is="+per3);
+
+
+}
+ public static void main(String agrs[])
+{
+newstu s=new newstu();
+s.display();
+}
+}
